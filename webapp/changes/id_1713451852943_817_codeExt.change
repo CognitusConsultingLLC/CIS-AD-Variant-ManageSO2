@@ -1,0 +1,23 @@
+{
+	"changeType": "codeExt",
+	"reference": "customer.cgdc.managesalesorderv2",
+	"namespace": "apps/customer.cgdc.managesalesorderv2/changes/",
+	"projectId": "customer.cgdc.managesalesorderv2",
+	"moduleName": "customer/cgdc/managesalesorderv2/changes/coding/cisadnavigation",
+	"support": {
+		"generator": "rta.service.ControllerExtension",
+		"sapui5Version": "1.108.18"
+	},
+	"originalLanguage": "EN",
+	"layer": "CUSTOMER_BASE",
+	"fileType": "change",
+	"fileName": "id_1713451852943_817_codeExt",
+	"content": {
+		"codeRef": "coding/cisadnavigation.js"
+	},
+	"texts": {},
+	"selector": {
+		"controllerName": "sap.fe.templates.ObjectPage.ObjectPageController"
+	},
+	"creation": "2024-04-18T14:50:52.947Z"
+}

@@ -1,0 +1,37 @@
+{
+	"fileName": "id_1713451768184_834_addXML",
+	"fileType": "change",
+	"changeType": "addXML",
+	"moduleName": "customer/cgdc/managesalesorderv2/changes/fragments/cisadnavigation.fragment.xml",
+	"reference": "customer.cgdc.managesalesorderv2",
+	"packageName": "$TMP",
+	"content": {
+		"targetAggregation": "actions",
+		"index": 0,
+		"fragmentPath": "fragments/cisadnavigation.fragment.xml"
+	},
+	"selector": {
+		"id": "cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FacetSubSection::BasicData",
+		"idIsLocal": false
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/cus.sd.salesorderv2.manage/changes/",
+	"projectId": "customer.cgdc.managesalesorderv2",
+	"creation": "2024-04-18T14:49:29.445Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "sap.ui.rta.command",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.108.18",
+		"sourceChangeFileName": "",
+		"compositeCommand": "",
+		"command": "addXML"
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

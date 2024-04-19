@@ -1,0 +1,4 @@
+<!-- Use stable and unique IDs!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns='sap.m'>
+  <Button id="idCISADButton" text="CIS-AD" type="Transparent" press=".extension.customer.cgdc.managesalesorderv2.cisadnavigation.onPressCISAD"/>
+</core:FragmentDefinition>
