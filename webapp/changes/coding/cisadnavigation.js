@@ -88,7 +88,7 @@ sap.ui.define([
 			// 	// override public method of the base controller
 			// 	basePublicMethod: function() {
 			// 	}
-			// }
+			// } 
 
 			onPressCISAD: function () {
 				var sSalesOrder = this.getView().getBindingContext().getObject("SalesOrder");
