@@ -34,7 +34,7 @@
     {
       "changeType": "appdescr_ui5_setMinUI5Version",
       "content": {
-        "minUI5Version": "1.108.21"
+        "minUI5Version": "1.120.23"
       }
     }
   ]

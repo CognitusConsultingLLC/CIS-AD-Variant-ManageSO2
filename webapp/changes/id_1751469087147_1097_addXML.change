@@ -1,0 +1,30 @@
+{
+  "changeType": "addXML",
+  "reference": "customer.cgdc.managesalesorderv2",
+  "namespace": "apps/customer.cgdc.managesalesorderv2/changes/",
+  "projectId": "customer.cgdc.managesalesorderv2",
+  "packageName": "$TMP",
+  "moduleName": "customer/cgdc/managesalesorderv2/changes/fragments/CopyAsReference.fragment.xml",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "command": "addXML",
+    "sapui5Version": "1.120.23"
+  },
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1751469087147_1097_addXML",
+  "content": {
+    "targetAggregation": "actions",
+    "index": 1,
+    "fragmentPath": "fragments/CopyAsReference.fragment.xml"
+  },
+  "texts": {},
+  "selector": {
+    "id": "cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::table::_Partner::LineItem",
+    "idIsLocal": false
+  },
+  "dependentSelector": {},
+  "jsOnly": false,
+  "creation": "2025-07-02T15:14:33.481Z"
+}

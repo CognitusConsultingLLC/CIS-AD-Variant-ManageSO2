@@ -1,0 +1,29 @@
+{
+  "fileName": "id_1751453064797_addNewModel",
+  "namespace": "apps/cus.sd.salesorderv2.manage/appVariants/customer.cgdc.managesalesorderv2/changes",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "creation": "2025-07-02T10:44:24.797Z",
+  "packageName": "$TMP",
+  "reference": "customer.cgdc.managesalesorderv2",
+  "support": {
+    "generator": "@sap-ux/adp-tooling"
+  },
+  "changeType": "appdescr_ui5_addNewModel",
+  "content": {
+    "dataSource": {
+      "customer.UI_CNCSALESDOCU_02": {
+        "uri": "/sap/opu/odata/CGDC/UI_CNCSALESDOCU_02/",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "2.0"
+        }
+      }
+    },
+    "model": {
+      "customer.UI_CNCSALESDOCU_02": {
+        "dataSource": "customer.UI_CNCSALESDOCU_02"
+      }
+    }
+  }
+}

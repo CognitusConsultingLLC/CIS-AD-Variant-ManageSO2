@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
 specVersion: "3.0"
 metadata:
   name: cgdc.managesalesorderv2
@@ -7,26 +9,36 @@ resources:
     propertiesFileSourceEncoding: UTF-8
 customConfiguration:
   adp:
-    safeMode: false
+    support:
+      id: '@sap/generator-adaptation-project'
+      version: NO_VERSION_FOUND
+      toolsId: e19410dc-05c9-4a76-a100-34697a62f28e
 server:
   customMiddleware:
-    - name: fiori-tools-preview
+    - name: fiori-tools-appreload
       afterMiddleware: compression
       configuration:
+        port: 35729
+        path: webapp
+        delay: 300
+    - name: fiori-tools-preview
+      afterMiddleware: fiori-tools-appreload
+      configuration:
         adp:
-          target: 
-            destination: SCC_XID_202_T
+          target:
+            destination: XD3-202
           ignoreCertErrors: false
     - name: fiori-tools-proxy
       afterMiddleware: fiori-tools-preview
       configuration:
-        ignoreCertErrors: false
+        ignoreCertError: false # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
+        backend:
+          - destination: XD3-202
+            url: https://REQUIRED_FOR_VSCODE.example
+            path: /sap
         ui5:
-          version: 1.108.21
           path:
             - /resources
             - /test-resources
-          url: https://sapui5.hana.ondemand.com/1.108.21
-        backend: 
-          - destination: SCC_XID_202_T
-            path: /sap
+          url: https://ui5.sap.com
+          version: 1.120.23

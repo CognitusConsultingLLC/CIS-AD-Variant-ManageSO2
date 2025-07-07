@@ -1,0 +1,25 @@
+<core:FragmentDefinition  xmlns:core="sap.ui.core" xmlns:t="sap.ui.table" xmlns:form="sap.ui.layout.form" xmlns:c="sap.ui.core" xmlns="sap.m"
+	xmlns:smartList="sap.ui.comp.smartlist" xmlns:smartForm="sap.ui.comp.smartform"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" xmlns:l="sap.ui.layout"
+	xmlns:smartField="sap.ui.comp.smartfield" xmlns:smartTable="sap.ui.comp.smarttable">
+   <Dialog title="{i18n>ActionxCGDCxC_ContractManagement_copyAsReference}" class="sapUiContentPadding" contentWidth="20rem" horizontalScrolling="false">
+		<content>
+			<smartForm:SmartForm id="idSalesDocType" app:defaultCheckBoxDisplayBehaviour="OnOff" editable="true" editTogglable="false"
+				editToggled="handleEditToggled" title="">
+				<smartForm:Group>
+					<smartForm:GroupElement>
+						<smartField:SmartField id="idSalesDocField" value="{RefDocument}" mandatory="true">
+							<smartField:configuration>
+								<smartField:Configuration displayBehaviour="idAndDescription"/>
+							</smartField:configuration>
+						</smartField:SmartField>
+					</smartForm:GroupElement>
+				</smartForm:Group>
+			</smartForm:SmartForm>
+		</content>
+		<buttons>
+			<Button text="{i18n>Submit}" press="onSubmitcopyAsReference" type="Emphasized"/>
+			<Button text="{i18n>Cancel}" press="onCopyasRefClose" />
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>
