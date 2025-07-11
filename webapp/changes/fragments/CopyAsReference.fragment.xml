@@ -2,7 +2,7 @@
 	xmlns:smartList="sap.ui.comp.smartlist" xmlns:smartForm="sap.ui.comp.smartform"
 	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" xmlns:l="sap.ui.layout"
 	xmlns:smartField="sap.ui.comp.smartfield" xmlns:smartTable="sap.ui.comp.smarttable">
-   <Dialog title="{i18n>ActionxCGDCxC_ContractManagement_copyAsReference}" class="sapUiContentPadding" contentWidth="20rem" horizontalScrolling="false">
+   <Dialog title="{i18n>CopyReference}" class="sapUiContentPadding" contentWidth="20rem" horizontalScrolling="false">
 		<content>
 			<smartForm:SmartForm id="idSalesDocType" app:defaultCheckBoxDisplayBehaviour="OnOff" editable="true" editTogglable="false"
 				editToggled="handleEditToggled" title="">
